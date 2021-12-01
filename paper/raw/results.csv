@@ -1,0 +1,1031 @@
+,experiment,d,repetitions,m,n,approx_type,kernel_type,l_minus_l_plus,function_type,perturbation_or_Qi,power
+0,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",uniform,1,1.0
+1,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",uniform,2,0.98
+2,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",uniform,3,0.302
+3,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",uniform,4,0.044
+4,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",increasing,1,1.0
+5,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",increasing,2,0.992
+6,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",increasing,3,0.476
+7,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",increasing,4,0.046
+8,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",decreasing,1,1.0
+9,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",decreasing,2,0.956
+10,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",decreasing,3,0.186
+11,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",decreasing,4,0.016
+12,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",centred,1,1.0
+13,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",centred,2,0.974
+14,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",centred,3,0.252
+15,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",centred,4,0.034
+16,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",ost,1,0.3
+17,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",ost,2,0.054
+18,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",ost,3,0.056
+19,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, -2)",ost,4,0.04
+20,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",uniform,1,1.0
+21,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",uniform,2,0.974
+22,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",uniform,3,0.346
+23,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",uniform,4,0.038
+24,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",increasing,1,1.0
+25,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",increasing,2,0.988
+26,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",increasing,3,0.268
+27,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",increasing,4,0.04
+28,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",decreasing,1,1.0
+29,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",decreasing,2,0.968
+30,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",decreasing,3,0.272
+31,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",decreasing,4,0.016
+32,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",centred,1,1.0
+33,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",centred,2,0.996
+34,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",centred,3,0.45
+35,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",centred,4,0.064
+36,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",ost,1,0.63
+37,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",ost,2,0.056
+38,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",ost,3,0.072
+39,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",ost,4,0.072
+40,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",uniform,1,1.0
+41,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",uniform,2,0.996
+42,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",uniform,3,0.384
+43,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",uniform,4,0.044
+44,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",increasing,1,1.0
+45,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",increasing,2,0.976
+46,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",increasing,3,0.226
+47,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",increasing,4,0.026
+48,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",decreasing,1,1.0
+49,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",decreasing,2,0.996
+50,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",decreasing,3,0.464
+51,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",decreasing,4,0.06
+52,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",centred,1,1.0
+53,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",centred,2,0.978
+54,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",centred,3,0.302
+55,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",centred,4,0.016
+56,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",ost,1,0.616
+57,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",ost,2,0.08
+58,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",ost,3,0.072
+59,1: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, 2)",ost,4,0.046
+60,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",uniform,1,1.0
+61,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",uniform,2,0.71
+62,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",uniform,3,0.004
+63,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",increasing,1,1.0
+64,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",increasing,2,0.814
+65,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",increasing,3,0.008
+66,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",decreasing,1,1.0
+67,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",decreasing,2,0.62
+68,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",decreasing,3,0.0
+69,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",centred,1,1.0
+70,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",centred,2,0.694
+71,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",centred,3,0.0
+72,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",ost,1,0.078
+73,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",ost,2,0.048
+74,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, -2)",ost,3,0.052
+75,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",uniform,1,1.0
+76,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",uniform,2,0.78
+77,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",uniform,3,0.004
+78,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",increasing,1,1.0
+79,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",increasing,2,0.784
+80,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",increasing,3,0.008
+81,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",decreasing,1,1.0
+82,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",decreasing,2,0.76
+83,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",decreasing,3,0.004
+84,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",centred,1,1.0
+85,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",centred,2,0.874
+86,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",centred,3,0.014
+87,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",ost,1,0.104
+88,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",ost,2,0.05
+89,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",ost,3,0.04
+90,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",uniform,1,1.0
+91,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",uniform,2,0.818
+92,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",uniform,3,0.014
+93,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",increasing,1,1.0
+94,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",increasing,2,0.726
+95,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",increasing,3,0.014
+96,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",decreasing,1,1.0
+97,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",decreasing,2,0.854
+98,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",decreasing,3,0.022
+99,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",centred,1,1.0
+100,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",centred,2,0.82
+101,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",centred,3,0.016
+102,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",ost,1,0.18
+103,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",ost,2,0.074
+104,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, 2)",ost,3,0.048
+105,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",uniform,1,1.0
+106,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",uniform,2,0.978
+107,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",uniform,3,0.242
+108,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",uniform,4,0.02
+109,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",increasing,1,1.0
+110,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",increasing,2,0.998
+111,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",increasing,3,0.358
+112,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",increasing,4,0.03
+113,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",decreasing,1,1.0
+114,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",decreasing,2,0.94
+115,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",decreasing,3,0.14
+116,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",decreasing,4,0.002
+117,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",centred,1,1.0
+118,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",centred,2,0.974
+119,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",centred,3,0.23
+120,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",centred,4,0.01
+121,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",ost,1,0.56
+122,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",ost,2,0.052
+123,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",ost,3,0.07
+124,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, -2)",ost,4,0.03
+125,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",uniform,1,1.0
+126,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",uniform,2,0.986
+127,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",uniform,3,0.256
+128,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",uniform,4,0.018
+129,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",increasing,1,1.0
+130,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",increasing,2,0.978
+131,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",increasing,3,0.244
+132,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",increasing,4,0.016
+133,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",decreasing,1,1.0
+134,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",decreasing,2,0.966
+135,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",decreasing,3,0.206
+136,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",decreasing,4,0.02
+137,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",centred,1,1.0
+138,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",centred,2,0.992
+139,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",centred,3,0.336
+140,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",centred,4,0.026
+141,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",ost,1,0.618
+142,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",ost,2,0.08
+143,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",ost,3,0.042
+144,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",ost,4,0.064
+145,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",uniform,1,1.0
+146,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",uniform,2,0.992
+147,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",uniform,3,0.262
+148,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",uniform,4,0.018
+149,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",increasing,1,1.0
+150,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",increasing,2,0.968
+151,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",increasing,3,0.158
+152,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",increasing,4,0.02
+153,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",decreasing,1,1.0
+154,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",decreasing,2,0.996
+155,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",decreasing,3,0.356
+156,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",decreasing,4,0.014
+157,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",centred,1,1.0
+158,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",centred,2,0.976
+159,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",centred,3,0.21
+160,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",centred,4,0.02
+161,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",ost,1,0.64
+162,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",ost,2,0.084
+163,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",ost,3,0.074
+164,1: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, 2)",ost,4,0.046
+165,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",uniform,1,1.0
+166,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",uniform,2,0.452
+167,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",uniform,3,0.0
+168,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",increasing,1,1.0
+169,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",increasing,2,0.566
+170,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",increasing,3,0.0
+171,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",decreasing,1,1.0
+172,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",decreasing,2,0.344
+173,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",decreasing,3,0.0
+174,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",centred,1,1.0
+175,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",centred,2,0.392
+176,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",centred,3,0.0
+177,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",ost,1,0.09
+178,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",ost,2,0.042
+179,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, -2)",ost,3,0.046
+180,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",uniform,1,1.0
+181,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",uniform,2,0.48
+182,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",uniform,3,0.006
+183,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",increasing,1,1.0
+184,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",increasing,2,0.428
+185,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",increasing,3,0.002
+186,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",decreasing,1,1.0
+187,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",decreasing,2,0.412
+188,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",decreasing,3,0.004
+189,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",centred,1,1.0
+190,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",centred,2,0.56
+191,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",centred,3,0.002
+192,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",ost,1,0.212
+193,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",ost,2,0.046
+194,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",ost,3,0.048
+195,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",uniform,1,1.0
+196,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",uniform,2,0.552
+197,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",uniform,3,0.004
+198,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",increasing,1,1.0
+199,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",increasing,2,0.32
+200,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",increasing,3,0.014
+201,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",decreasing,1,1.0
+202,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",decreasing,2,0.62
+203,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",decreasing,3,0.004
+204,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",centred,1,1.0
+205,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",centred,2,0.468
+206,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",centred,3,0.002
+207,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",ost,1,0.2
+208,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",ost,2,0.052
+209,1: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, 2)",ost,3,0.046
+210,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",uniform,1,1.0
+211,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",uniform,2,0.976
+212,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",uniform,3,0.348
+213,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",uniform,4,0.032
+214,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",increasing,1,1.0
+215,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",increasing,2,0.988
+216,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",increasing,3,0.27
+217,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",increasing,4,0.036
+218,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",decreasing,1,1.0
+219,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",decreasing,2,0.968
+220,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",decreasing,3,0.296
+221,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",decreasing,4,0.014
+222,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",centred,1,1.0
+223,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",centred,2,1.0
+224,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",centred,3,0.446
+225,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",centred,4,0.07
+226,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",ost,1,0.63
+227,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",ost,2,0.056
+228,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",ost,3,0.072
+229,1: uniform alternative,1.0,500,500,500,permutation,gaussian,"(-4, 0)",ost,4,0.072
+230,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",uniform,1,1.0
+231,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",uniform,2,0.772
+232,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",uniform,3,0.002
+233,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",increasing,1,1.0
+234,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",increasing,2,0.784
+235,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",increasing,3,0.01
+236,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",decreasing,1,1.0
+237,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",decreasing,2,0.748
+238,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",decreasing,3,0.006
+239,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",centred,1,1.0
+240,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",centred,2,0.872
+241,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",centred,3,0.012
+242,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",ost,1,0.104
+243,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",ost,2,0.05
+244,1: uniform alternative,2.0,500,2000,2000,permutation,gaussian,"(-4, 0)",ost,3,0.04
+245,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",uniform,1,1.0
+246,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",uniform,2,0.99
+247,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",uniform,3,0.234
+248,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",uniform,4,0.022
+249,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",increasing,1,1.0
+250,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",increasing,2,0.986
+251,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",increasing,3,0.234
+252,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",increasing,4,0.012
+253,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",decreasing,1,1.0
+254,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",decreasing,2,0.962
+255,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",decreasing,3,0.206
+256,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",decreasing,4,0.018
+257,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",centred,1,1.0
+258,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",centred,2,0.992
+259,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",centred,3,0.336
+260,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",centred,4,0.024
+261,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",ost,1,0.618
+262,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",ost,2,0.08
+263,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",ost,3,0.042
+264,1: uniform alternative,1.0,500,500,500,permutation,laplace,"(-4, 0)",ost,4,0.064
+265,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",uniform,1,1.0
+266,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",uniform,2,0.47
+267,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",uniform,3,0.006
+268,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",increasing,1,1.0
+269,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",increasing,2,0.41
+270,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",increasing,3,0.002
+271,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",decreasing,1,1.0
+272,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",decreasing,2,0.4
+273,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",decreasing,3,0.004
+274,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",centred,1,1.0
+275,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",centred,2,0.558
+276,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",centred,3,0.002
+277,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",ost,1,0.212
+278,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",ost,2,0.046
+279,1: uniform alternative,2.0,500,2000,2000,permutation,laplace,"(-4, 0)",ost,3,0.048
+280,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,median,1,1.0
+281,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,median,2,0.812
+282,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,median,3,0.084
+283,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,median,4,0.018
+284,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,split,1,1.0
+285,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,split,2,0.826
+286,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,split,3,0.144
+287,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,split,4,0.046
+288,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,split (doubled sample sizes),1,1.0
+289,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,split (doubled sample sizes),2,0.99
+290,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,split (doubled sample sizes),3,0.562
+291,3: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,,split (doubled sample sizes),4,0.174
+292,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,,median,1,1.0
+293,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,,median,2,0.132
+294,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,,median,3,0.012
+295,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,,split,1,1.0
+296,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,,split,2,0.506
+297,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,,split,3,0.026
+298,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,,split (doubled sample sizes),1,1.0
+299,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,,split (doubled sample sizes),2,0.968
+300,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,,split (doubled sample sizes),3,0.09
+301,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,median,1,1.0
+302,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,median,2,0.962
+303,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,median,3,0.172
+304,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,median,4,0.018
+305,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,split,1,1.0
+306,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,split,2,0.752
+307,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,split,3,0.144
+308,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,split,4,0.04
+309,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,split (doubled sample sizes),1,1.0
+310,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,split (doubled sample sizes),2,0.992
+311,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,split (doubled sample sizes),3,0.516
+312,3: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,,split (doubled sample sizes),4,0.118
+313,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,,median,1,1.0
+314,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,,median,2,0.08
+315,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,,median,3,0.014
+316,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,,split,1,1.0
+317,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,,split,2,0.3
+318,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,,split,3,0.016
+319,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,,split (doubled sample sizes),1,1.0
+320,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,,split (doubled sample sizes),2,0.862
+321,3: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,,split (doubled sample sizes),3,0.03
+322,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,median,1,1.0
+323,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,median,2,0.804
+324,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,median,3,0.082
+325,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,median,4,0.02
+326,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,split,1,1.0
+327,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,split,2,0.826
+328,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,split,3,0.154
+329,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,split,4,0.048
+330,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,split (doubled sample sizes),1,1.0
+331,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,split (doubled sample sizes),2,0.992
+332,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,split (doubled sample sizes),3,0.562
+333,3: uniform alternative,1.0,500,500,500,permutation,gaussian,,split (doubled sample sizes),4,0.184
+334,3: uniform alternative,2.0,500,2000,2000,permutation,gaussian,,median,1,1.0
+335,3: uniform alternative,2.0,500,2000,2000,permutation,gaussian,,median,2,0.138
+336,3: uniform alternative,2.0,500,2000,2000,permutation,gaussian,,median,3,0.012
+337,3: uniform alternative,2.0,500,2000,2000,permutation,gaussian,,split,1,1.0
+338,3: uniform alternative,2.0,500,2000,2000,permutation,gaussian,,split,2,0.5
+339,3: uniform alternative,2.0,500,2000,2000,permutation,gaussian,,split,3,0.028
+340,3: uniform alternative,2.0,500,2000,2000,permutation,gaussian,,split (doubled sample sizes),1,1.0
+341,3: uniform alternative,2.0,500,2000,2000,permutation,gaussian,,split (doubled sample sizes),2,0.964
+342,3: uniform alternative,2.0,500,2000,2000,permutation,gaussian,,split (doubled sample sizes),3,0.092
+343,3: uniform alternative,1.0,500,500,500,permutation,laplace,,median,1,1.0
+344,3: uniform alternative,1.0,500,500,500,permutation,laplace,,median,2,0.96
+345,3: uniform alternative,1.0,500,500,500,permutation,laplace,,median,3,0.17
+346,3: uniform alternative,1.0,500,500,500,permutation,laplace,,median,4,0.02
+347,3: uniform alternative,1.0,500,500,500,permutation,laplace,,split,1,1.0
+348,3: uniform alternative,1.0,500,500,500,permutation,laplace,,split,2,0.758
+349,3: uniform alternative,1.0,500,500,500,permutation,laplace,,split,3,0.148
+350,3: uniform alternative,1.0,500,500,500,permutation,laplace,,split,4,0.04
+351,3: uniform alternative,1.0,500,500,500,permutation,laplace,,split (doubled sample sizes),1,1.0
+352,3: uniform alternative,1.0,500,500,500,permutation,laplace,,split (doubled sample sizes),2,0.988
+353,3: uniform alternative,1.0,500,500,500,permutation,laplace,,split (doubled sample sizes),3,0.508
+354,3: uniform alternative,1.0,500,500,500,permutation,laplace,,split (doubled sample sizes),4,0.12
+355,3: uniform alternative,2.0,500,2000,2000,permutation,laplace,,median,1,1.0
+356,3: uniform alternative,2.0,500,2000,2000,permutation,laplace,,median,2,0.076
+357,3: uniform alternative,2.0,500,2000,2000,permutation,laplace,,median,3,0.018
+358,3: uniform alternative,2.0,500,2000,2000,permutation,laplace,,split,1,1.0
+359,3: uniform alternative,2.0,500,2000,2000,permutation,laplace,,split,2,0.288
+360,3: uniform alternative,2.0,500,2000,2000,permutation,laplace,,split,3,0.026
+361,3: uniform alternative,2.0,500,2000,2000,permutation,laplace,,split (doubled sample sizes),1,1.0
+362,3: uniform alternative,2.0,500,2000,2000,permutation,laplace,,split (doubled sample sizes),2,0.856
+363,3: uniform alternative,2.0,500,2000,2000,permutation,laplace,,split (doubled sample sizes),3,0.026
+364,5: uniform null,1.0,5000,500,500,wild bootstrap,gaussian,"(-4, 0)",uniform,0,0.0476
+365,5: uniform null,1.0,5000,500,500,wild bootstrap,gaussian,"(-4, 0)",increasing,0,0.0456
+366,5: uniform null,1.0,5000,500,500,wild bootstrap,gaussian,"(-4, 0)",decreasing,0,0.0434
+367,5: uniform null,1.0,5000,500,500,wild bootstrap,gaussian,"(-4, 0)",centred,0,0.052
+368,5: uniform null,1.0,5000,500,500,wild bootstrap,gaussian,"(-4, 0)",ost,0,0.0594
+369,5: uniform null,1.0,5000,500,500,wild bootstrap,gaussian,"(-4, 0)",median,0,0.047
+370,5: uniform null,1.0,5000,500,500,wild bootstrap,gaussian,"(-4, 0)",split,0,0.054
+371,5: uniform null,2.0,5000,2000,2000,wild bootstrap,gaussian,"(-4, 0)",uniform,0,0.039
+372,5: uniform null,2.0,5000,2000,2000,wild bootstrap,gaussian,"(-4, 0)",increasing,0,0.044
+373,5: uniform null,2.0,5000,2000,2000,wild bootstrap,gaussian,"(-4, 0)",decreasing,0,0.0496
+374,5: uniform null,2.0,5000,2000,2000,wild bootstrap,gaussian,"(-4, 0)",centred,0,0.0432
+375,5: uniform null,2.0,5000,2000,2000,wild bootstrap,gaussian,"(-4, 0)",ost,0,0.0478
+376,5: uniform null,2.0,5000,2000,2000,wild bootstrap,gaussian,"(-4, 0)",median,0,0.0464
+377,5: uniform null,2.0,5000,2000,2000,wild bootstrap,gaussian,"(-4, 0)",split,0,0.0482
+378,5: uniform null,1.0,5000,500,500,wild bootstrap,laplace,"(-4, 0)",uniform,0,0.0474
+379,5: uniform null,1.0,5000,500,500,wild bootstrap,laplace,"(-4, 0)",increasing,0,0.0516
+380,5: uniform null,1.0,5000,500,500,wild bootstrap,laplace,"(-4, 0)",decreasing,0,0.0504
+381,5: uniform null,1.0,5000,500,500,wild bootstrap,laplace,"(-4, 0)",centred,0,0.0488
+382,5: uniform null,1.0,5000,500,500,wild bootstrap,laplace,"(-4, 0)",ost,0,0.0586
+383,5: uniform null,1.0,5000,500,500,wild bootstrap,laplace,"(-4, 0)",median,0,0.0534
+384,5: uniform null,1.0,5000,500,500,wild bootstrap,laplace,"(-4, 0)",split,0,0.05
+385,5: uniform null,2.0,5000,2000,2000,wild bootstrap,laplace,"(-4, 0)",uniform,0,0.0382
+386,5: uniform null,2.0,5000,2000,2000,wild bootstrap,laplace,"(-4, 0)",increasing,0,0.0506
+387,5: uniform null,2.0,5000,2000,2000,wild bootstrap,laplace,"(-4, 0)",decreasing,0,0.0478
+388,5: uniform null,2.0,5000,2000,2000,wild bootstrap,laplace,"(-4, 0)",centred,0,0.0502
+389,5: uniform null,2.0,5000,2000,2000,wild bootstrap,laplace,"(-4, 0)",ost,0,0.0502
+390,5: uniform null,2.0,5000,2000,2000,wild bootstrap,laplace,"(-4, 0)",median,0,0.0438
+391,5: uniform null,2.0,5000,2000,2000,wild bootstrap,laplace,"(-4, 0)",split,0,0.0548
+392,5: uniform null,1.0,5000,500,500,permutation,gaussian,"(-4, 0)",uniform,0,0.0496
+393,5: uniform null,1.0,5000,500,500,permutation,gaussian,"(-4, 0)",increasing,0,0.0478
+394,5: uniform null,1.0,5000,500,500,permutation,gaussian,"(-4, 0)",decreasing,0,0.0454
+395,5: uniform null,1.0,5000,500,500,permutation,gaussian,"(-4, 0)",centred,0,0.0532
+396,5: uniform null,1.0,5000,500,500,permutation,gaussian,"(-4, 0)",ost,0,0.0594
+397,5: uniform null,1.0,5000,500,500,permutation,gaussian,"(-4, 0)",median,0,0.0468
+398,5: uniform null,1.0,5000,500,500,permutation,gaussian,"(-4, 0)",split,0,0.0528
+399,5: uniform null,2.0,5000,2000,2000,permutation,gaussian,"(-4, 0)",uniform,0,0.0424
+400,5: uniform null,2.0,5000,2000,2000,permutation,gaussian,"(-4, 0)",increasing,0,0.0414
+401,5: uniform null,2.0,5000,2000,2000,permutation,gaussian,"(-4, 0)",decreasing,0,0.0498
+402,5: uniform null,2.0,5000,2000,2000,permutation,gaussian,"(-4, 0)",centred,0,0.0446
+403,5: uniform null,2.0,5000,2000,2000,permutation,gaussian,"(-4, 0)",ost,0,0.0478
+404,5: uniform null,2.0,5000,2000,2000,permutation,gaussian,"(-4, 0)",median,0,0.0466
+405,5: uniform null,2.0,5000,2000,2000,permutation,gaussian,"(-4, 0)",split,0,0.0472
+406,5: uniform null,1.0,5000,500,500,permutation,laplace,"(-4, 0)",uniform,0,0.047
+407,5: uniform null,1.0,5000,500,500,permutation,laplace,"(-4, 0)",increasing,0,0.0496
+408,5: uniform null,1.0,5000,500,500,permutation,laplace,"(-4, 0)",decreasing,0,0.0494
+409,5: uniform null,1.0,5000,500,500,permutation,laplace,"(-4, 0)",centred,0,0.0482
+410,5: uniform null,1.0,5000,500,500,permutation,laplace,"(-4, 0)",ost,0,0.0586
+411,5: uniform null,1.0,5000,500,500,permutation,laplace,"(-4, 0)",median,0,0.0522
+412,5: uniform null,1.0,5000,500,500,permutation,laplace,"(-4, 0)",split,0,0.0494
+413,5: uniform null,2.0,5000,2000,2000,permutation,laplace,"(-4, 0)",uniform,0,0.0418
+414,5: uniform null,2.0,5000,2000,2000,permutation,laplace,"(-4, 0)",increasing,0,0.0514
+415,5: uniform null,2.0,5000,2000,2000,permutation,laplace,"(-4, 0)",decreasing,0,0.049
+416,5: uniform null,2.0,5000,2000,2000,permutation,laplace,"(-4, 0)",centred,0,0.0474
+417,5: uniform null,2.0,5000,2000,2000,permutation,laplace,"(-4, 0)",ost,0,0.0502
+418,5: uniform null,2.0,5000,2000,2000,permutation,laplace,"(-4, 0)",median,0,0.0458
+419,5: uniform null,2.0,5000,2000,2000,permutation,laplace,"(-4, 0)",split,0,0.0548
+420,7: uniform alternative,1.0,500,100,1000,permutation,gaussian,"(-4, 0)",uniform,3,0.09
+421,7: uniform alternative,1.0,500,100,2000,permutation,gaussian,"(-4, 0)",uniform,3,0.15
+422,7: uniform alternative,1.0,500,100,3000,permutation,gaussian,"(-4, 0)",uniform,3,0.164
+423,7: uniform alternative,1.0,500,100,4000,permutation,gaussian,"(-4, 0)",uniform,3,0.172
+424,7: uniform alternative,1.0,500,100,5000,permutation,gaussian,"(-4, 0)",uniform,3,0.172
+425,7: uniform alternative,1.0,500,100,1000,permutation,gaussian,"(-4, 0)",increasing,3,0.08
+426,7: uniform alternative,1.0,500,100,2000,permutation,gaussian,"(-4, 0)",increasing,3,0.114
+427,7: uniform alternative,1.0,500,100,3000,permutation,gaussian,"(-4, 0)",increasing,3,0.13
+428,7: uniform alternative,1.0,500,100,4000,permutation,gaussian,"(-4, 0)",increasing,3,0.166
+429,7: uniform alternative,1.0,500,100,5000,permutation,gaussian,"(-4, 0)",increasing,3,0.142
+430,7: uniform alternative,1.0,500,100,1000,permutation,gaussian,"(-4, 0)",decreasing,3,0.07
+431,7: uniform alternative,1.0,500,100,2000,permutation,gaussian,"(-4, 0)",decreasing,3,0.132
+432,7: uniform alternative,1.0,500,100,3000,permutation,gaussian,"(-4, 0)",decreasing,3,0.138
+433,7: uniform alternative,1.0,500,100,4000,permutation,gaussian,"(-4, 0)",decreasing,3,0.166
+434,7: uniform alternative,1.0,500,100,5000,permutation,gaussian,"(-4, 0)",decreasing,3,0.18
+435,7: uniform alternative,1.0,500,100,1000,permutation,gaussian,"(-4, 0)",centred,3,0.142
+436,7: uniform alternative,1.0,500,100,2000,permutation,gaussian,"(-4, 0)",centred,3,0.182
+437,7: uniform alternative,1.0,500,100,3000,permutation,gaussian,"(-4, 0)",centred,3,0.216
+438,7: uniform alternative,1.0,500,100,4000,permutation,gaussian,"(-4, 0)",centred,3,0.206
+439,7: uniform alternative,1.0,500,100,5000,permutation,gaussian,"(-4, 0)",centred,3,0.23
+440,7: uniform alternative,2.0,500,250,1000,permutation,gaussian,"(-4, 0)",uniform,2,0.016
+441,7: uniform alternative,2.0,500,250,2000,permutation,gaussian,"(-4, 0)",uniform,2,0.058
+442,7: uniform alternative,2.0,500,250,3000,permutation,gaussian,"(-4, 0)",uniform,2,0.08
+443,7: uniform alternative,2.0,500,250,4000,permutation,gaussian,"(-4, 0)",uniform,2,0.106
+444,7: uniform alternative,2.0,500,250,5000,permutation,gaussian,"(-4, 0)",uniform,2,0.12
+445,7: uniform alternative,2.0,500,250,1000,permutation,gaussian,"(-4, 0)",increasing,2,0.034
+446,7: uniform alternative,2.0,500,250,2000,permutation,gaussian,"(-4, 0)",increasing,2,0.056
+447,7: uniform alternative,2.0,500,250,3000,permutation,gaussian,"(-4, 0)",increasing,2,0.088
+448,7: uniform alternative,2.0,500,250,4000,permutation,gaussian,"(-4, 0)",increasing,2,0.096
+449,7: uniform alternative,2.0,500,250,5000,permutation,gaussian,"(-4, 0)",increasing,2,0.136
+450,7: uniform alternative,2.0,500,250,1000,permutation,gaussian,"(-4, 0)",decreasing,2,0.002
+451,7: uniform alternative,2.0,500,250,2000,permutation,gaussian,"(-4, 0)",decreasing,2,0.032
+452,7: uniform alternative,2.0,500,250,3000,permutation,gaussian,"(-4, 0)",decreasing,2,0.058
+453,7: uniform alternative,2.0,500,250,4000,permutation,gaussian,"(-4, 0)",decreasing,2,0.062
+454,7: uniform alternative,2.0,500,250,5000,permutation,gaussian,"(-4, 0)",decreasing,2,0.082
+455,7: uniform alternative,2.0,500,250,1000,permutation,gaussian,"(-4, 0)",centred,2,0.01
+456,7: uniform alternative,2.0,500,250,2000,permutation,gaussian,"(-4, 0)",centred,2,0.084
+457,7: uniform alternative,2.0,500,250,3000,permutation,gaussian,"(-4, 0)",centred,2,0.116
+458,7: uniform alternative,2.0,500,250,4000,permutation,gaussian,"(-4, 0)",centred,2,0.162
+459,7: uniform alternative,2.0,500,250,5000,permutation,gaussian,"(-4, 0)",centred,2,0.178
+460,7: uniform alternative,1.0,500,100,1000,permutation,laplace,"(-4, 0)",uniform,3,0.06
+461,7: uniform alternative,1.0,500,100,2000,permutation,laplace,"(-4, 0)",uniform,3,0.128
+462,7: uniform alternative,1.0,500,100,3000,permutation,laplace,"(-4, 0)",uniform,3,0.178
+463,7: uniform alternative,1.0,500,100,4000,permutation,laplace,"(-4, 0)",uniform,3,0.172
+464,7: uniform alternative,1.0,500,100,5000,permutation,laplace,"(-4, 0)",uniform,3,0.18
+465,7: uniform alternative,1.0,500,100,1000,permutation,laplace,"(-4, 0)",increasing,3,0.076
+466,7: uniform alternative,1.0,500,100,2000,permutation,laplace,"(-4, 0)",increasing,3,0.092
+467,7: uniform alternative,1.0,500,100,3000,permutation,laplace,"(-4, 0)",increasing,3,0.146
+468,7: uniform alternative,1.0,500,100,4000,permutation,laplace,"(-4, 0)",increasing,3,0.134
+469,7: uniform alternative,1.0,500,100,5000,permutation,laplace,"(-4, 0)",increasing,3,0.112
+470,7: uniform alternative,1.0,500,100,1000,permutation,laplace,"(-4, 0)",decreasing,3,0.072
+471,7: uniform alternative,1.0,500,100,2000,permutation,laplace,"(-4, 0)",decreasing,3,0.138
+472,7: uniform alternative,1.0,500,100,3000,permutation,laplace,"(-4, 0)",decreasing,3,0.156
+473,7: uniform alternative,1.0,500,100,4000,permutation,laplace,"(-4, 0)",decreasing,3,0.156
+474,7: uniform alternative,1.0,500,100,5000,permutation,laplace,"(-4, 0)",decreasing,3,0.196
+475,7: uniform alternative,1.0,500,100,1000,permutation,laplace,"(-4, 0)",centred,3,0.116
+476,7: uniform alternative,1.0,500,100,2000,permutation,laplace,"(-4, 0)",centred,3,0.17
+477,7: uniform alternative,1.0,500,100,3000,permutation,laplace,"(-4, 0)",centred,3,0.174
+478,7: uniform alternative,1.0,500,100,4000,permutation,laplace,"(-4, 0)",centred,3,0.186
+479,7: uniform alternative,1.0,500,100,5000,permutation,laplace,"(-4, 0)",centred,3,0.176
+480,7: uniform alternative,2.0,500,250,1000,permutation,laplace,"(-4, 0)",uniform,2,0.002
+481,7: uniform alternative,2.0,500,250,2000,permutation,laplace,"(-4, 0)",uniform,2,0.036
+482,7: uniform alternative,2.0,500,250,3000,permutation,laplace,"(-4, 0)",uniform,2,0.062
+483,7: uniform alternative,2.0,500,250,4000,permutation,laplace,"(-4, 0)",uniform,2,0.068
+484,7: uniform alternative,2.0,500,250,5000,permutation,laplace,"(-4, 0)",uniform,2,0.092
+485,7: uniform alternative,2.0,500,250,1000,permutation,laplace,"(-4, 0)",increasing,2,0.03
+486,7: uniform alternative,2.0,500,250,2000,permutation,laplace,"(-4, 0)",increasing,2,0.038
+487,7: uniform alternative,2.0,500,250,3000,permutation,laplace,"(-4, 0)",increasing,2,0.062
+488,7: uniform alternative,2.0,500,250,4000,permutation,laplace,"(-4, 0)",increasing,2,0.072
+489,7: uniform alternative,2.0,500,250,5000,permutation,laplace,"(-4, 0)",increasing,2,0.096
+490,7: uniform alternative,2.0,500,250,1000,permutation,laplace,"(-4, 0)",decreasing,2,0.0
+491,7: uniform alternative,2.0,500,250,2000,permutation,laplace,"(-4, 0)",decreasing,2,0.02
+492,7: uniform alternative,2.0,500,250,3000,permutation,laplace,"(-4, 0)",decreasing,2,0.03
+493,7: uniform alternative,2.0,500,250,4000,permutation,laplace,"(-4, 0)",decreasing,2,0.06
+494,7: uniform alternative,2.0,500,250,5000,permutation,laplace,"(-4, 0)",decreasing,2,0.066
+495,7: uniform alternative,2.0,500,250,1000,permutation,laplace,"(-4, 0)",centred,2,0.01
+496,7: uniform alternative,2.0,500,250,2000,permutation,laplace,"(-4, 0)",centred,2,0.034
+497,7: uniform alternative,2.0,500,250,3000,permutation,laplace,"(-4, 0)",centred,2,0.078
+498,7: uniform alternative,2.0,500,250,4000,permutation,laplace,"(-4, 0)",centred,2,0.096
+499,7: uniform alternative,2.0,500,250,5000,permutation,laplace,"(-4, 0)",centred,2,0.124
+500,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, -2)",uniform,3,0.502
+501,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-2, -2)",centred,3,0.542
+502,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-3, -1)",uniform,3,0.412
+503,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-3, -1)",centred,3,0.48
+504,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",uniform,3,0.33
+505,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-4, 0)",centred,3,0.484
+506,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-5, 1)",uniform,3,0.274
+507,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-5, 1)",centred,3,0.434
+508,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, 2)",uniform,3,0.236
+509,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-6, 2)",centred,3,0.408
+510,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-7, 3)",uniform,3,0.25
+511,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-7, 3)",centred,3,0.408
+512,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-8, 4)",uniform,3,0.214
+513,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-8, 4)",centred,3,0.392
+514,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-9, 5)",uniform,3,0.186
+515,9: uniform alternative,1.0,500,500,500,wild bootstrap,gaussian,"(-9, 5)",centred,3,0.396
+516,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, -2)",uniform,2,0.872
+517,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-2, -2)",centred,2,0.882
+518,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-3, -1)",uniform,2,0.838
+519,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-3, -1)",centred,2,0.88
+520,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",uniform,2,0.774
+521,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-4, 0)",centred,2,0.87
+522,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-5, 1)",uniform,2,0.754
+523,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-5, 1)",centred,2,0.868
+524,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, 2)",uniform,2,0.73
+525,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-6, 2)",centred,2,0.804
+526,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-7, 3)",uniform,2,0.698
+527,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-7, 3)",centred,2,0.818
+528,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-8, 4)",uniform,2,0.65
+529,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-8, 4)",centred,2,0.798
+530,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-9, 5)",uniform,2,0.684
+531,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,gaussian,"(-9, 5)",centred,2,0.814
+532,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, -2)",uniform,3,0.392
+533,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-2, -2)",centred,3,0.394
+534,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-3, -1)",uniform,3,0.314
+535,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-3, -1)",centred,3,0.38
+536,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",uniform,3,0.25
+537,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-4, 0)",centred,3,0.332
+538,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-5, 1)",uniform,3,0.262
+539,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-5, 1)",centred,3,0.336
+540,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, 2)",uniform,3,0.206
+541,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-6, 2)",centred,3,0.32
+542,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-7, 3)",uniform,3,0.176
+543,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-7, 3)",centred,3,0.33
+544,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-8, 4)",uniform,3,0.188
+545,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-8, 4)",centred,3,0.272
+546,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-9, 5)",uniform,3,0.168
+547,9: uniform alternative,1.0,500,500,500,wild bootstrap,laplace,"(-9, 5)",centred,3,0.264
+548,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, -2)",uniform,2,0.636
+549,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-2, -2)",centred,2,0.624
+550,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-3, -1)",uniform,2,0.534
+551,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-3, -1)",centred,2,0.604
+552,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",uniform,2,0.5
+553,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-4, 0)",centred,2,0.54
+554,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-5, 1)",uniform,2,0.428
+555,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-5, 1)",centred,2,0.592
+556,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, 2)",uniform,2,0.408
+557,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-6, 2)",centred,2,0.572
+558,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-7, 3)",uniform,2,0.384
+559,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-7, 3)",centred,2,0.554
+560,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-8, 4)",uniform,2,0.366
+561,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-8, 4)",centred,2,0.548
+562,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-9, 5)",uniform,2,0.374
+563,9: uniform alternative,2.0,500,2000,2000,wild bootstrap,laplace,"(-9, 5)",centred,2,0.556
+564,11: uniform alternative,1.0,500,25000,25000,,gaussian,"(-4, 0)",ost,1,1.0
+565,11: uniform alternative,1.0,500,25000,25000,,gaussian,"(-4, 0)",ost,2,0.796
+566,11: uniform alternative,1.0,500,25000,25000,,gaussian,"(-4, 0)",ost,3,0.122
+567,11: uniform alternative,1.0,500,25000,25000,,gaussian,"(-4, 0)",ost,4,0.088
+568,11: uniform alternative,2.0,500,250000,250000,,gaussian,"(-4, 0)",ost,1,1.0
+569,11: uniform alternative,2.0,500,250000,250000,,gaussian,"(-4, 0)",ost,2,0.23
+570,11: uniform alternative,2.0,500,250000,250000,,gaussian,"(-4, 0)",ost,3,0.08
+571,11: uniform alternative,1.0,500,25000,25000,,laplace,"(-4, 0)",ost,1,1.0
+572,11: uniform alternative,1.0,500,25000,25000,,laplace,"(-4, 0)",ost,2,0.854
+573,11: uniform alternative,1.0,500,25000,25000,,laplace,"(-4, 0)",ost,3,0.11
+574,11: uniform alternative,1.0,500,25000,25000,,laplace,"(-4, 0)",ost,4,0.09
+575,11: uniform alternative,2.0,500,250000,250000,,laplace,"(-4, 0)",ost,1,1.0
+576,11: uniform alternative,2.0,500,250000,250000,,laplace,"(-4, 0)",ost,2,0.268
+577,11: uniform alternative,2.0,500,250000,250000,,laplace,"(-4, 0)",ost,3,0.058
+578,11: uniform alternative,1.0,500,50000,50000,,gaussian,"(-4, 0)",ost,1,1.0
+579,11: uniform alternative,1.0,500,50000,50000,,gaussian,"(-4, 0)",ost,2,0.944
+580,11: uniform alternative,1.0,500,50000,50000,,gaussian,"(-4, 0)",ost,3,0.238
+581,11: uniform alternative,1.0,500,50000,50000,,gaussian,"(-4, 0)",ost,4,0.094
+582,11: uniform alternative,2.0,500,500000,500000,,gaussian,"(-4, 0)",ost,1,1.0
+583,11: uniform alternative,2.0,500,500000,500000,,gaussian,"(-4, 0)",ost,2,0.42
+584,11: uniform alternative,2.0,500,500000,500000,,gaussian,"(-4, 0)",ost,3,0.076
+585,11: uniform alternative,1.0,500,50000,50000,,laplace,"(-4, 0)",ost,1,1.0
+586,11: uniform alternative,1.0,500,50000,50000,,laplace,"(-4, 0)",ost,2,0.992
+587,11: uniform alternative,1.0,500,50000,50000,,laplace,"(-4, 0)",ost,3,0.21
+588,11: uniform alternative,1.0,500,50000,50000,,laplace,"(-4, 0)",ost,4,0.064
+589,11: uniform alternative,2.0,500,500000,500000,,laplace,"(-4, 0)",ost,1,1.0
+590,11: uniform alternative,2.0,500,500000,500000,,laplace,"(-4, 0)",ost,2,0.47
+591,11: uniform alternative,2.0,500,500000,500000,,laplace,"(-4, 0)",ost,3,0.08
+592,11: uniform alternative,1.0,500,75000,75000,,gaussian,"(-4, 0)",ost,1,1.0
+593,11: uniform alternative,1.0,500,75000,75000,,gaussian,"(-4, 0)",ost,2,0.992
+594,11: uniform alternative,1.0,500,75000,75000,,gaussian,"(-4, 0)",ost,3,0.334
+595,11: uniform alternative,1.0,500,75000,75000,,gaussian,"(-4, 0)",ost,4,0.124
+596,11: uniform alternative,2.0,500,750000,750000,,gaussian,"(-4, 0)",ost,1,1.0
+597,11: uniform alternative,2.0,500,750000,750000,,gaussian,"(-4, 0)",ost,2,0.572
+598,11: uniform alternative,2.0,500,750000,750000,,gaussian,"(-4, 0)",ost,3,0.084
+599,11: uniform alternative,1.0,500,75000,75000,,laplace,"(-4, 0)",ost,1,1.0
+600,11: uniform alternative,1.0,500,75000,75000,,laplace,"(-4, 0)",ost,2,0.998
+601,11: uniform alternative,1.0,500,75000,75000,,laplace,"(-4, 0)",ost,3,0.328
+602,11: uniform alternative,1.0,500,75000,75000,,laplace,"(-4, 0)",ost,4,0.118
+603,11: uniform alternative,2.0,500,750000,750000,,laplace,"(-4, 0)",ost,1,1.0
+604,11: uniform alternative,2.0,500,750000,750000,,laplace,"(-4, 0)",ost,2,0.71
+605,11: uniform alternative,2.0,500,750000,750000,,laplace,"(-4, 0)",ost,3,0.114
+606,11: uniform alternative,1.0,500,100000,100000,,gaussian,"(-4, 0)",ost,1,1.0
+607,11: uniform alternative,1.0,500,100000,100000,,gaussian,"(-4, 0)",ost,2,1.0
+608,11: uniform alternative,1.0,500,100000,100000,,gaussian,"(-4, 0)",ost,3,0.462
+609,11: uniform alternative,1.0,500,100000,100000,,gaussian,"(-4, 0)",ost,4,0.148
+610,11: uniform alternative,2.0,500,1000000,1000000,,gaussian,"(-4, 0)",ost,1,1.0
+611,11: uniform alternative,2.0,500,1000000,1000000,,gaussian,"(-4, 0)",ost,2,0.696
+612,11: uniform alternative,2.0,500,1000000,1000000,,gaussian,"(-4, 0)",ost,3,0.122
+613,11: uniform alternative,1.0,500,100000,100000,,laplace,"(-4, 0)",ost,1,1.0
+614,11: uniform alternative,1.0,500,100000,100000,,laplace,"(-4, 0)",ost,2,1.0
+615,11: uniform alternative,1.0,500,100000,100000,,laplace,"(-4, 0)",ost,3,0.418
+616,11: uniform alternative,1.0,500,100000,100000,,laplace,"(-4, 0)",ost,4,0.126
+617,11: uniform alternative,2.0,500,1000000,1000000,,laplace,"(-4, 0)",ost,1,1.0
+618,11: uniform alternative,2.0,500,1000000,1000000,,laplace,"(-4, 0)",ost,2,0.79
+619,11: uniform alternative,2.0,500,1000000,1000000,,laplace,"(-4, 0)",ost,3,0.088
+620,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",uniform,Q1,1.0
+621,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",uniform,Q2,0.988
+622,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",uniform,Q3,0.372
+623,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",uniform,Q4,0.378
+624,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",uniform,Q5,0.054
+625,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",increasing,Q1,1.0
+626,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",increasing,Q2,0.992
+627,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",increasing,Q3,0.406
+628,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",increasing,Q4,0.45
+629,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",increasing,Q5,0.094
+630,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",decreasing,Q1,0.992
+631,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",decreasing,Q2,0.958
+632,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",decreasing,Q3,0.3
+633,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",decreasing,Q4,0.28
+634,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",decreasing,Q5,0.048
+635,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",centred,Q1,1.0
+636,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",centred,Q2,0.964
+637,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",centred,Q3,0.36
+638,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",centred,Q4,0.362
+639,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",centred,Q5,0.074
+640,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",ost,Q1,0.082
+641,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",ost,Q2,0.086
+642,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",ost,Q3,0.076
+643,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",ost,Q4,0.07
+644,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 12)",ost,Q5,0.058
+645,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",uniform,Q1,1.0
+646,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",uniform,Q2,0.988
+647,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",uniform,Q3,0.408
+648,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",uniform,Q4,0.358
+649,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",uniform,Q5,0.058
+650,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",increasing,Q1,1.0
+651,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",increasing,Q2,0.972
+652,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",increasing,Q3,0.384
+653,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",increasing,Q4,0.39
+654,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",increasing,Q5,0.038
+655,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",decreasing,Q1,0.998
+656,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",decreasing,Q2,0.978
+657,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",decreasing,Q3,0.356
+658,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",decreasing,Q4,0.41
+659,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",decreasing,Q5,0.064
+660,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",centred,Q1,1.0
+661,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",centred,Q2,0.99
+662,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",centred,Q3,0.45
+663,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",centred,Q4,0.472
+664,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",centred,Q5,0.074
+665,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",ost,Q1,0.074
+666,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",ost,Q2,0.05
+667,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",ost,Q3,0.054
+668,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",ost,Q4,0.066
+669,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",ost,Q5,0.052
+670,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",uniform,Q1,1.0
+671,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",uniform,Q2,0.986
+672,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",uniform,Q3,0.398
+673,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",uniform,Q4,0.38
+674,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",uniform,Q5,0.058
+675,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",increasing,Q1,0.998
+676,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",increasing,Q2,0.96
+677,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",increasing,Q3,0.36
+678,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",increasing,Q4,0.336
+679,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",increasing,Q5,0.044
+680,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",decreasing,Q1,1.0
+681,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",decreasing,Q2,0.992
+682,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",decreasing,Q3,0.454
+683,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",decreasing,Q4,0.464
+684,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",decreasing,Q5,0.056
+685,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",centred,Q1,0.998
+686,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",centred,Q2,0.974
+687,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",centred,Q3,0.382
+688,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",centred,Q4,0.35
+689,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",centred,Q5,0.072
+690,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",ost,Q1,0.092
+691,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",ost,Q2,0.048
+692,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",ost,Q3,0.07
+693,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",ost,Q4,0.07
+694,2: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 16)",ost,Q5,0.048
+695,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",uniform,Q1,1.0
+696,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",uniform,Q2,0.998
+697,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",uniform,Q3,0.548
+698,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",uniform,Q4,0.566
+699,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",uniform,Q5,0.078
+700,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",increasing,Q1,1.0
+701,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",increasing,Q2,1.0
+702,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",increasing,Q3,0.594
+703,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",increasing,Q4,0.58
+704,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",increasing,Q5,0.094
+705,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",decreasing,Q1,1.0
+706,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",decreasing,Q2,0.99
+707,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",decreasing,Q3,0.434
+708,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",decreasing,Q4,0.498
+709,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",decreasing,Q5,0.068
+710,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",centred,Q1,1.0
+711,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",centred,Q2,1.0
+712,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",centred,Q3,0.53
+713,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",centred,Q4,0.536
+714,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",centred,Q5,0.066
+715,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",ost,Q1,0.074
+716,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",ost,Q2,0.06
+717,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",ost,Q3,0.044
+718,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",ost,Q4,0.08
+719,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 14)",ost,Q5,0.074
+720,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",uniform,Q1,1.0
+721,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",uniform,Q2,0.994
+722,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",uniform,Q3,0.572
+723,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",uniform,Q4,0.612
+724,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",uniform,Q5,0.07
+725,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",increasing,Q1,1.0
+726,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",increasing,Q2,0.998
+727,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",increasing,Q3,0.578
+728,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",increasing,Q4,0.616
+729,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",increasing,Q5,0.086
+730,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",decreasing,Q1,1.0
+731,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",decreasing,Q2,0.996
+732,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",decreasing,Q3,0.558
+733,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",decreasing,Q4,0.552
+734,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",decreasing,Q5,0.084
+735,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",centred,Q1,1.0
+736,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",centred,Q2,0.996
+737,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",centred,Q3,0.588
+738,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",centred,Q4,0.564
+739,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",centred,Q5,0.08
+740,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",ost,Q1,0.08
+741,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",ost,Q2,0.076
+742,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",ost,Q3,0.024
+743,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",ost,Q4,0.048
+744,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",ost,Q5,0.058
+745,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",uniform,Q1,1.0
+746,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",uniform,Q2,1.0
+747,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",uniform,Q3,0.574
+748,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",uniform,Q4,0.57
+749,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",uniform,Q5,0.084
+750,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",increasing,Q1,1.0
+751,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",increasing,Q2,0.998
+752,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",increasing,Q3,0.608
+753,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",increasing,Q4,0.56
+754,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",increasing,Q5,0.076
+755,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",decreasing,Q1,1.0
+756,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",decreasing,Q2,0.998
+757,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",decreasing,Q3,0.62
+758,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",decreasing,Q4,0.618
+759,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",decreasing,Q5,0.06
+760,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",centred,Q1,1.0
+761,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",centred,Q2,0.994
+762,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",centred,Q3,0.608
+763,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",centred,Q4,0.598
+764,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",centred,Q5,0.074
+765,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",ost,Q1,0.078
+766,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",ost,Q2,0.072
+767,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",ost,Q3,0.048
+768,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",ost,Q4,0.068
+769,2: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 18)",ost,Q5,0.042
+770,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",uniform,Q1,0.998
+771,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",uniform,Q2,0.982
+772,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",uniform,Q3,0.39
+773,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",uniform,Q4,0.37
+774,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",uniform,Q5,0.05
+775,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",increasing,Q1,1.0
+776,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",increasing,Q2,0.984
+777,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",increasing,Q3,0.4
+778,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",increasing,Q4,0.392
+779,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",increasing,Q5,0.046
+780,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",decreasing,Q1,0.998
+781,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",decreasing,Q2,0.978
+782,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",decreasing,Q3,0.34
+783,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",decreasing,Q4,0.406
+784,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",decreasing,Q5,0.064
+785,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",centred,Q1,1.0
+786,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",centred,Q2,0.992
+787,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",centred,Q3,0.424
+788,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",centred,Q4,0.47
+789,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",centred,Q5,0.09
+790,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",ost,Q1,0.074
+791,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",ost,Q2,0.05
+792,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",ost,Q3,0.054
+793,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",ost,Q4,0.066
+794,2: mnist alternative,,500,500,500,permutation,gaussian,"(10, 14)",ost,Q5,0.052
+795,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",uniform,Q1,1.0
+796,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",uniform,Q2,0.994
+797,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",uniform,Q3,0.556
+798,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",uniform,Q4,0.614
+799,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",uniform,Q5,0.072
+800,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",increasing,Q1,1.0
+801,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",increasing,Q2,0.998
+802,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",increasing,Q3,0.584
+803,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",increasing,Q4,0.596
+804,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",increasing,Q5,0.092
+805,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",decreasing,Q1,1.0
+806,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",decreasing,Q2,0.998
+807,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",decreasing,Q3,0.556
+808,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",decreasing,Q4,0.55
+809,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",decreasing,Q5,0.082
+810,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",centred,Q1,1.0
+811,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",centred,Q2,0.996
+812,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",centred,Q3,0.6
+813,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",centred,Q4,0.552
+814,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",centred,Q5,0.076
+815,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",ost,Q1,0.08
+816,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",ost,Q2,0.076
+817,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",ost,Q3,0.024
+818,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",ost,Q4,0.048
+819,2: mnist alternative,,500,500,500,permutation,laplace,"(12, 16)",ost,Q5,0.058
+820,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,median,Q1,0.608
+821,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,median,Q2,0.298
+822,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,median,Q3,0.15
+823,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,median,Q4,0.094
+824,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,median,Q5,0.068
+825,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split,Q1,0.928
+826,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split,Q2,0.694
+827,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split,Q3,0.142
+828,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split,Q4,0.168
+829,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split,Q5,0.056
+830,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split (doubled sample sizes),Q1,1.0
+831,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split (doubled sample sizes),Q2,0.986
+832,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split (doubled sample sizes),Q3,0.392
+833,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split (doubled sample sizes),Q4,0.442
+834,4: mnist alternative,,500,500,500,wild bootstrap,gaussian,,split (doubled sample sizes),Q5,0.054
+835,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,median,Q1,0.508
+836,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,median,Q2,0.29
+837,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,median,Q3,0.094
+838,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,median,Q4,0.084
+839,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,median,Q5,0.064
+840,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split,Q1,0.988
+841,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split,Q2,0.86
+842,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split,Q3,0.25
+843,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split,Q4,0.266
+844,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split,Q5,0.066
+845,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split (doubled sample sizes),Q1,1.0
+846,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split (doubled sample sizes),Q2,1.0
+847,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split (doubled sample sizes),Q3,0.532
+848,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split (doubled sample sizes),Q4,0.564
+849,4: mnist alternative,,500,500,500,wild bootstrap,laplace,,split (doubled sample sizes),Q5,0.092
+850,4: mnist alternative,,500,500,500,permutation,gaussian,,median,Q1,0.61
+851,4: mnist alternative,,500,500,500,permutation,gaussian,,median,Q2,0.3
+852,4: mnist alternative,,500,500,500,permutation,gaussian,,median,Q3,0.144
+853,4: mnist alternative,,500,500,500,permutation,gaussian,,median,Q4,0.096
+854,4: mnist alternative,,500,500,500,permutation,gaussian,,median,Q5,0.068
+855,4: mnist alternative,,500,500,500,permutation,gaussian,,split,Q1,0.924
+856,4: mnist alternative,,500,500,500,permutation,gaussian,,split,Q2,0.688
+857,4: mnist alternative,,500,500,500,permutation,gaussian,,split,Q3,0.14
+858,4: mnist alternative,,500,500,500,permutation,gaussian,,split,Q4,0.17
+859,4: mnist alternative,,500,500,500,permutation,gaussian,,split,Q5,0.056
+860,4: mnist alternative,,500,500,500,permutation,gaussian,,split (doubled sample sizes),Q1,1.0
+861,4: mnist alternative,,500,500,500,permutation,gaussian,,split (doubled sample sizes),Q2,0.992
+862,4: mnist alternative,,500,500,500,permutation,gaussian,,split (doubled sample sizes),Q3,0.392
+863,4: mnist alternative,,500,500,500,permutation,gaussian,,split (doubled sample sizes),Q4,0.43
+864,4: mnist alternative,,500,500,500,permutation,gaussian,,split (doubled sample sizes),Q5,0.052
+865,4: mnist alternative,,500,500,500,permutation,laplace,,median,Q1,0.508
+866,4: mnist alternative,,500,500,500,permutation,laplace,,median,Q2,0.294
+867,4: mnist alternative,,500,500,500,permutation,laplace,,median,Q3,0.11
+868,4: mnist alternative,,500,500,500,permutation,laplace,,median,Q4,0.086
+869,4: mnist alternative,,500,500,500,permutation,laplace,,median,Q5,0.066
+870,4: mnist alternative,,500,500,500,permutation,laplace,,split,Q1,0.988
+871,4: mnist alternative,,500,500,500,permutation,laplace,,split,Q2,0.866
+872,4: mnist alternative,,500,500,500,permutation,laplace,,split,Q3,0.262
+873,4: mnist alternative,,500,500,500,permutation,laplace,,split,Q4,0.278
+874,4: mnist alternative,,500,500,500,permutation,laplace,,split,Q5,0.056
+875,4: mnist alternative,,500,500,500,permutation,laplace,,split (doubled sample sizes),Q1,1.0
+876,4: mnist alternative,,500,500,500,permutation,laplace,,split (doubled sample sizes),Q2,0.998
+877,4: mnist alternative,,500,500,500,permutation,laplace,,split (doubled sample sizes),Q3,0.536
+878,4: mnist alternative,,500,500,500,permutation,laplace,,split (doubled sample sizes),Q4,0.566
+879,4: mnist alternative,,500,500,500,permutation,laplace,,split (doubled sample sizes),Q5,0.09
+880,6: mnist null,,5000,500,500,wild bootstrap,gaussian,"(10, 14)",uniform,P,0.0478
+881,6: mnist null,,5000,500,500,wild bootstrap,gaussian,"(10, 14)",increasing,P,0.0474
+882,6: mnist null,,5000,500,500,wild bootstrap,gaussian,"(10, 14)",decreasing,P,0.0488
+883,6: mnist null,,5000,500,500,wild bootstrap,gaussian,"(10, 14)",centred,P,0.0528
+884,6: mnist null,,5000,500,500,wild bootstrap,gaussian,"(10, 14)",ost,P,0.0496
+885,6: mnist null,,5000,500,500,wild bootstrap,gaussian,"(10, 14)",median,P,0.0526
+886,6: mnist null,,5000,500,500,wild bootstrap,gaussian,"(10, 14)",split,P,0.0498
+887,6: mnist null,,5000,500,500,wild bootstrap,laplace,"(12, 16)",uniform,P,0.054
+888,6: mnist null,,5000,500,500,wild bootstrap,laplace,"(12, 16)",increasing,P,0.0424
+889,6: mnist null,,5000,500,500,wild bootstrap,laplace,"(12, 16)",decreasing,P,0.0548
+890,6: mnist null,,5000,500,500,wild bootstrap,laplace,"(12, 16)",centred,P,0.052
+891,6: mnist null,,5000,500,500,wild bootstrap,laplace,"(12, 16)",ost,P,0.05
+892,6: mnist null,,5000,500,500,wild bootstrap,laplace,"(12, 16)",median,P,0.0518
+893,6: mnist null,,5000,500,500,wild bootstrap,laplace,"(12, 16)",split,P,0.0444
+894,6: mnist null,,5000,500,500,permutation,gaussian,"(10, 14)",uniform,P,0.042
+895,6: mnist null,,5000,500,500,permutation,gaussian,"(10, 14)",increasing,P,0.0476
+896,6: mnist null,,5000,500,500,permutation,gaussian,"(10, 14)",decreasing,P,0.048
+897,6: mnist null,,5000,500,500,permutation,gaussian,"(10, 14)",centred,P,0.05
+898,6: mnist null,,5000,500,500,permutation,gaussian,"(10, 14)",ost,P,0.0496
+899,6: mnist null,,5000,500,500,permutation,gaussian,"(10, 14)",median,P,0.055
+900,6: mnist null,,5000,500,500,permutation,gaussian,"(10, 14)",split,P,0.0484
+901,6: mnist null,,5000,500,500,permutation,laplace,"(12, 16)",uniform,P,0.0526
+902,6: mnist null,,5000,500,500,permutation,laplace,"(12, 16)",increasing,P,0.0442
+903,6: mnist null,,5000,500,500,permutation,laplace,"(12, 16)",decreasing,P,0.0554
+904,6: mnist null,,5000,500,500,permutation,laplace,"(12, 16)",centred,P,0.0532
+905,6: mnist null,,5000,500,500,permutation,laplace,"(12, 16)",ost,P,0.05
+906,6: mnist null,,5000,500,500,permutation,laplace,"(12, 16)",median,P,0.051
+907,6: mnist null,,5000,500,500,permutation,laplace,"(12, 16)",split,P,0.0448
+908,8: mnist alternative,,500,100,200,permutation,gaussian,"(12, 16)",uniform,Q3,0.092
+909,8: mnist alternative,,500,100,400,permutation,gaussian,"(12, 16)",uniform,Q3,0.116
+910,8: mnist alternative,,500,100,600,permutation,gaussian,"(12, 16)",uniform,Q3,0.12
+911,8: mnist alternative,,500,100,800,permutation,gaussian,"(12, 16)",uniform,Q3,0.152
+912,8: mnist alternative,,500,100,1000,permutation,gaussian,"(12, 16)",uniform,Q3,0.144
+913,8: mnist alternative,,500,100,200,permutation,gaussian,"(12, 16)",increasing,Q3,0.092
+914,8: mnist alternative,,500,100,400,permutation,gaussian,"(12, 16)",increasing,Q3,0.128
+915,8: mnist alternative,,500,100,600,permutation,gaussian,"(12, 16)",increasing,Q3,0.146
+916,8: mnist alternative,,500,100,800,permutation,gaussian,"(12, 16)",increasing,Q3,0.126
+917,8: mnist alternative,,500,100,1000,permutation,gaussian,"(12, 16)",increasing,Q3,0.128
+918,8: mnist alternative,,500,100,200,permutation,gaussian,"(12, 16)",decreasing,Q3,0.106
+919,8: mnist alternative,,500,100,400,permutation,gaussian,"(12, 16)",decreasing,Q3,0.14
+920,8: mnist alternative,,500,100,600,permutation,gaussian,"(12, 16)",decreasing,Q3,0.108
+921,8: mnist alternative,,500,100,800,permutation,gaussian,"(12, 16)",decreasing,Q3,0.11
+922,8: mnist alternative,,500,100,1000,permutation,gaussian,"(12, 16)",decreasing,Q3,0.12
+923,8: mnist alternative,,500,100,200,permutation,gaussian,"(12, 16)",centred,Q3,0.102
+924,8: mnist alternative,,500,100,400,permutation,gaussian,"(12, 16)",centred,Q3,0.11
+925,8: mnist alternative,,500,100,600,permutation,gaussian,"(12, 16)",centred,Q3,0.136
+926,8: mnist alternative,,500,100,800,permutation,gaussian,"(12, 16)",centred,Q3,0.146
+927,8: mnist alternative,,500,100,1000,permutation,gaussian,"(12, 16)",centred,Q3,0.134
+928,8: mnist alternative,,500,100,200,permutation,laplace,"(12, 16)",uniform,Q3,0.146
+929,8: mnist alternative,,500,100,400,permutation,laplace,"(12, 16)",uniform,Q3,0.158
+930,8: mnist alternative,,500,100,600,permutation,laplace,"(12, 16)",uniform,Q3,0.174
+931,8: mnist alternative,,500,100,800,permutation,laplace,"(12, 16)",uniform,Q3,0.188
+932,8: mnist alternative,,500,100,1000,permutation,laplace,"(12, 16)",uniform,Q3,0.19
+933,8: mnist alternative,,500,100,200,permutation,laplace,"(12, 16)",increasing,Q3,0.16
+934,8: mnist alternative,,500,100,400,permutation,laplace,"(12, 16)",increasing,Q3,0.208
+935,8: mnist alternative,,500,100,600,permutation,laplace,"(12, 16)",increasing,Q3,0.182
+936,8: mnist alternative,,500,100,800,permutation,laplace,"(12, 16)",increasing,Q3,0.208
+937,8: mnist alternative,,500,100,1000,permutation,laplace,"(12, 16)",increasing,Q3,0.2
+938,8: mnist alternative,,500,100,200,permutation,laplace,"(12, 16)",decreasing,Q3,0.124
+939,8: mnist alternative,,500,100,400,permutation,laplace,"(12, 16)",decreasing,Q3,0.158
+940,8: mnist alternative,,500,100,600,permutation,laplace,"(12, 16)",decreasing,Q3,0.162
+941,8: mnist alternative,,500,100,800,permutation,laplace,"(12, 16)",decreasing,Q3,0.184
+942,8: mnist alternative,,500,100,1000,permutation,laplace,"(12, 16)",decreasing,Q3,0.176
+943,8: mnist alternative,,500,100,200,permutation,laplace,"(12, 16)",centred,Q3,0.124
+944,8: mnist alternative,,500,100,400,permutation,laplace,"(12, 16)",centred,Q3,0.2
+945,8: mnist alternative,,500,100,600,permutation,laplace,"(12, 16)",centred,Q3,0.216
+946,8: mnist alternative,,500,100,800,permutation,laplace,"(12, 16)",centred,Q3,0.196
+947,8: mnist alternative,,500,100,1000,permutation,laplace,"(12, 16)",centred,Q3,0.236
+948,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 12)",uniform,Q3,0.47
+949,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(12, 12)",centred,Q3,0.442
+950,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(11, 13)",uniform,Q3,0.424
+951,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(11, 13)",centred,Q3,0.428
+952,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",uniform,Q3,0.364
+953,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(10, 14)",centred,Q3,0.426
+954,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(9, 15)",uniform,Q3,0.372
+955,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(9, 15)",centred,Q3,0.41
+956,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 16)",uniform,Q3,0.356
+957,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(8, 16)",centred,Q3,0.48
+958,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(7, 17)",uniform,Q3,0.344
+959,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(7, 17)",centred,Q3,0.434
+960,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(6, 18)",uniform,Q3,0.33
+961,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(6, 18)",centred,Q3,0.374
+962,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(5, 19)",uniform,Q3,0.35
+963,10: mnist alternative,,500,500,500,wild bootstrap,gaussian,"(5, 19)",centred,Q3,0.424
+964,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 14)",uniform,Q3,0.622
+965,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(14, 14)",centred,Q3,0.612
+966,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(13, 15)",uniform,Q3,0.582
+967,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(13, 15)",centred,Q3,0.598
+968,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",uniform,Q3,0.568
+969,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(12, 16)",centred,Q3,0.61
+970,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(11, 17)",uniform,Q3,0.55
+971,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(11, 17)",centred,Q3,0.606
+972,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 18)",uniform,Q3,0.542
+973,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(10, 18)",centred,Q3,0.652
+974,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(9, 19)",uniform,Q3,0.526
+975,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(9, 19)",centred,Q3,0.548
+976,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(8, 20)",uniform,Q3,0.536
+977,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(8, 20)",centred,Q3,0.548
+978,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(7, 21)",uniform,Q3,0.528
+979,10: mnist alternative,,500,500,500,wild bootstrap,laplace,"(7, 21)",centred,Q3,0.614
+980,12: mnist alternative,,500,50000,50000,,gaussian,"(10, 14)",ost,Q1,0.99
+981,12: mnist alternative,,500,50000,50000,,gaussian,"(10, 14)",ost,Q2,0.878
+982,12: mnist alternative,,500,50000,50000,,gaussian,"(10, 14)",ost,Q3,0.084
+983,12: mnist alternative,,500,50000,50000,,gaussian,"(10, 14)",ost,Q4,0.124
+984,12: mnist alternative,,500,50000,50000,,gaussian,"(10, 14)",ost,Q5,0.046
+985,12: mnist alternative,,500,50000,50000,,laplace,"(12, 16)",ost,Q1,1.0
+986,12: mnist alternative,,500,50000,50000,,laplace,"(12, 16)",ost,Q2,0.944
+987,12: mnist alternative,,500,50000,50000,,laplace,"(12, 16)",ost,Q3,0.146
+988,12: mnist alternative,,500,50000,50000,,laplace,"(12, 16)",ost,Q4,0.144
+989,12: mnist alternative,,500,50000,50000,,laplace,"(12, 16)",ost,Q5,0.07
+990,12: mnist alternative,,500,100000,100000,,gaussian,"(10, 14)",ost,Q1,1.0
+991,12: mnist alternative,,500,100000,100000,,gaussian,"(10, 14)",ost,Q2,0.996
+992,12: mnist alternative,,500,100000,100000,,gaussian,"(10, 14)",ost,Q3,0.172
+993,12: mnist alternative,,500,100000,100000,,gaussian,"(10, 14)",ost,Q4,0.186
+994,12: mnist alternative,,500,100000,100000,,gaussian,"(10, 14)",ost,Q5,0.056
+995,12: mnist alternative,,500,100000,100000,,laplace,"(12, 16)",ost,Q1,1.0
+996,12: mnist alternative,,500,100000,100000,,laplace,"(12, 16)",ost,Q2,1.0
+997,12: mnist alternative,,500,100000,100000,,laplace,"(12, 16)",ost,Q3,0.278
+998,12: mnist alternative,,500,100000,100000,,laplace,"(12, 16)",ost,Q4,0.234
+999,12: mnist alternative,,500,100000,100000,,laplace,"(12, 16)",ost,Q5,0.06
+1000,12: mnist alternative,,500,150000,150000,,gaussian,"(10, 14)",ost,Q1,1.0
+1001,12: mnist alternative,,500,150000,150000,,gaussian,"(10, 14)",ost,Q2,1.0
+1002,12: mnist alternative,,500,150000,150000,,gaussian,"(10, 14)",ost,Q3,0.22
+1003,12: mnist alternative,,500,150000,150000,,gaussian,"(10, 14)",ost,Q4,0.24
+1004,12: mnist alternative,,500,150000,150000,,gaussian,"(10, 14)",ost,Q5,0.038
+1005,12: mnist alternative,,500,150000,150000,,laplace,"(12, 16)",ost,Q1,1.0
+1006,12: mnist alternative,,500,150000,150000,,laplace,"(12, 16)",ost,Q2,1.0
+1007,12: mnist alternative,,500,150000,150000,,laplace,"(12, 16)",ost,Q3,0.356
+1008,12: mnist alternative,,500,150000,150000,,laplace,"(12, 16)",ost,Q4,0.376
+1009,12: mnist alternative,,500,150000,150000,,laplace,"(12, 16)",ost,Q5,0.046
+1010,12: mnist alternative,,500,200000,200000,,gaussian,"(10, 14)",ost,Q1,1.0
+1011,12: mnist alternative,,500,200000,200000,,gaussian,"(10, 14)",ost,Q2,1.0
+1012,12: mnist alternative,,500,200000,200000,,gaussian,"(10, 14)",ost,Q3,0.256
+1013,12: mnist alternative,,500,200000,200000,,gaussian,"(10, 14)",ost,Q4,0.324
+1014,12: mnist alternative,,500,200000,200000,,gaussian,"(10, 14)",ost,Q5,0.054
+1015,12: mnist alternative,,500,200000,200000,,laplace,"(12, 16)",ost,Q1,1.0
+1016,12: mnist alternative,,500,200000,200000,,laplace,"(12, 16)",ost,Q2,1.0
+1017,12: mnist alternative,,500,200000,200000,,laplace,"(12, 16)",ost,Q3,0.49
+1018,12: mnist alternative,,500,200000,200000,,laplace,"(12, 16)",ost,Q4,0.496
+1019,12: mnist alternative,,500,200000,200000,,laplace,"(12, 16)",ost,Q5,0.062
+1020,12: mnist alternative,,500,250000,250000,,gaussian,"(10, 14)",ost,Q1,1.0
+1021,12: mnist alternative,,500,250000,250000,,gaussian,"(10, 14)",ost,Q2,1.0
+1022,12: mnist alternative,,500,250000,250000,,gaussian,"(10, 14)",ost,Q3,0.338
+1023,12: mnist alternative,,500,250000,250000,,gaussian,"(10, 14)",ost,Q4,0.388
+1024,12: mnist alternative,,500,250000,250000,,gaussian,"(10, 14)",ost,Q5,0.044
+1025,12: mnist alternative,,500,250000,250000,,laplace,"(12, 16)",ost,Q1,1.0
+1026,12: mnist alternative,,500,250000,250000,,laplace,"(12, 16)",ost,Q2,1.0
+1027,12: mnist alternative,,500,250000,250000,,laplace,"(12, 16)",ost,Q3,0.584
+1028,12: mnist alternative,,500,250000,250000,,laplace,"(12, 16)",ost,Q4,0.574
+1029,12: mnist alternative,,500,250000,250000,,laplace,"(12, 16)",ost,Q5,0.068
