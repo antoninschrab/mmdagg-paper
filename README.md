@@ -1,5 +1,7 @@
 # Code for MMDAgg: an MMD aggregated two-sample test
 
+An improved implementation of MMDAgg which is more memory-efficient can be found [here](https://github.com/antoninschrab/FL-MMDAgg/tree/master/mmdaggupdate).
+
 This GitHub repository contains the code for the reproducible experiments presented in our paper 
 [MMD Aggregated Two-Sample Test](https://arxiv.org/abs/2110.15073).
 We provide the code to run the experiments to generate Figures 1-9 and Table 1 from our paper, 
