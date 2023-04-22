@@ -276,16 +276,6 @@ def plot_fig_3_4(idx, idy, f, axs, power, power_ms, l_minus, l_plus):
     )
     axs[idx, idy].plot(
         x_values,
-        power[4],
-        CB_color_cycle[5],
-        marker="^",
-        linestyle="--",
-        label=r"\texttt{ost}",
-        linewidth=linewidth,
-        markersize=markersize,
-    )
-    axs[idx, idy].plot(
-        x_values,
         power_ms[1],
         CB_color_cycle[4],
         marker="s",
@@ -304,12 +294,24 @@ def plot_fig_3_4(idx, idy, f, axs, power, power_ms, l_minus, l_plus):
         linewidth=linewidth,
         markersize=markersize,
     )
+    axs[idx, idy].plot(
+        x_values,
+        power[4],
+        CB_color_cycle[5],
+        marker="^",
+        linestyle="--",
+        label=r"\texttt{ost}",
+        linewidth=linewidth,
+        markersize=markersize,
+    )
     axs[idx, idy].set_xticks(x_values)
     if idx == 0:
         axs[idx, idy].set_title(
             "$\Lambda(" + str(l_minus) + "," + str(l_plus) + ")$", fontsize=fs, pad=10
         )
     axs[idx, idy].set_ylim(-0.05, 1.05)
+    if (idx, idy) in [(1, 0), (1, 2), (1, 1)]:
+        axs[idx, idy].tick_params(labelbottom=True)
     if (idx, idy) == (1, 1):
         axs[idx, idy].set_xlabel("Number of perturbations", fontsize=fs)
     if (idx, idy) == (0, 0):
@@ -372,16 +374,6 @@ def plot_fig_5(idx, idy, f, axs, power, power_ms):
     )
     axs[idx, idy].plot(
         x_values,
-        power[4],
-        CB_color_cycle[5],
-        marker="^",
-        linestyle="--",
-        label=r"\texttt{ost}",
-        linewidth=linewidth,
-        markersize=markersize,
-    )
-    axs[idx, idy].plot(
-        x_values,
         power_ms[1],
         CB_color_cycle[4],
         marker="s",
@@ -400,12 +392,24 @@ def plot_fig_5(idx, idy, f, axs, power, power_ms):
         linewidth=linewidth,
         markersize=markersize,
     )
+    axs[idx, idy].plot(
+        x_values,
+        power[4],
+        CB_color_cycle[5],
+        marker="^",
+        linestyle="--",
+        label=r"\texttt{ost}",
+        linewidth=linewidth,
+        markersize=markersize,
+    )
     axs[idx, idy].set_xticks(x_values)
     axs[idx, idy].xaxis.set_tick_params(pad=7)
     axs[idx, idy].set_yticks([0, 0.25, 0.5, 0.75, 1])
     axs[idx, idy].set_ylim(-0.05, 1.05)
+    if (idx, idy) in [(1, 0), (1, 2), (1, 1)]:
+        axs[idx, idy].tick_params(labelbottom=True)
     if (idx, idy) == (1, 1):
-        axs[idx, idy].set_xlabel("Choice of alternative", fontsize=fs)
+        axs[idx, idy].set_xlabel("Choice of alternative", fontsize=fs, labelpad=8)
     if (idx, idy) == (0, 0):
         axs[idx, idy].set_ylabel("Power \n Gaussian kernel", fontsize=fs)
         axs[idx, idy].set_title(
@@ -490,6 +494,16 @@ def plot_fig_7(idx, idy, f, axs, power, power_ms):
         x_values = ["$Q_1$", "$Q_2$", "$Q_3$", "$Q_4$", "$Q_5$"]
     axs[idx, idy].plot(
         x_values,
+        power_ms[0],
+        CB_color_cycle[6],
+        marker="s",
+        linestyle="--",
+        label=r"\texttt{median}",
+        linewidth=linewidth,
+        markersize=markersize,
+    )
+    axs[idx, idy].plot(
+        x_values,
         power[0],
         CB_color_cycle[1],
         marker="o",
@@ -526,16 +540,6 @@ def plot_fig_7(idx, idy, f, axs, power, power_ms):
     )
     axs[idx, idy].plot(
         x_values,
-        power_ms[0],
-        CB_color_cycle[6],
-        marker="s",
-        linestyle="--",
-        label=r"\texttt{median}",
-        linewidth=linewidth,
-        markersize=markersize,
-    )
-    axs[idx, idy].plot(
-        x_values,
         power_ms[1],
         CB_color_cycle[4],
         marker="s",
@@ -555,21 +559,21 @@ def plot_fig_7(idx, idy, f, axs, power, power_ms):
         axs[idx, idy].set_xticklabels(["", "", "", ""])
     if (idx, idy) == (1, 0):
         axs[idx, idy].set_ylabel("Difference in power \n Laplace kernel", fontsize=fs)
-        axs[idx, idy].set_xlabel("Number of perturbations", fontsize=fs)
+        axs[idx, idy].set_xlabel("Number of perturbations", fontsize=fs, labelpad=8)
     if (idx, idy) == (0, 1):
         axs[idx, idy].set_title(
             "$d=2$, $\Lambda(-4,0)$\n$m=n=2\,000$", fontsize=fs, pad=10
         )
         axs[idx, idy].set_xticklabels(["", "", ""])
     if (idx, idy) == (1, 1):
-        axs[idx, idy].set_xlabel("Number of perturbations", fontsize=fs)
+        axs[idx, idy].set_xlabel("Number of perturbations", fontsize=fs, labelpad=8)
     if (idx, idy) == (0, 2):
         axs[idx, idy].set_title(
             "MNIST, $\Lambda(10,14)$, $\Lambda(12,16)$\n$m=n=500$", fontsize=fs, pad=10
         )
         axs[idx, idy].set_xticklabels(["", "", "", "", ""])
     if (idx, idy) == (1, 2):
-        axs[idx, idy].set_xlabel("Choice of alternative", fontsize=fs)
+        axs[idx, idy].set_xlabel("Choice of alternative", fontsize=fs, labelpad=8)
         axs[idx, idy].xaxis.set_tick_params(pad=7)
 
 

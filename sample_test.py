@@ -2,16 +2,17 @@ import numpy as np
 from tests import mmdagg, mmd_median_test, mmd_split_test
 from ost import ost
 from sampling import f_theta_sampler
-
+from mmdagg.np import mmdagg as mmdagg_star
+import autotst
 
 def sample_and_test_uniform(
     function_type, seed, kernel_type, approx_type, m, n, d, p, s, 
-    perturbation_multiplier, alpha, l_minus, l_plus, B1, B2, B3, bandwidth_multipliers
+    perturbation_multiplier, alpha, l_minus, l_plus, B1, B2, B3, bandwidth_multipliers, number_bandwidths=10,
 ):  
     """
     Sample from uniform and perturbed uniform density and run two-sample test.
     inputs: function_type: "uniform", "increasing", "decreasing", "centred", "ost", 
-                           "median", "split" or "split (doubled sample sizes)"
+                           "median", "split", "split (doubled sample sizes)" or "mmdagg_star"
             seed: integer random seed
             kernel_type: "gaussian" or "laplace": 
             approx_type: "permutation" (for MMD_a estimate Eq. (3)) 
@@ -59,6 +60,29 @@ def sample_and_test_uniform(
             seed, X, Y, alpha, kernel_type, approx_type, 
             function_type, l_minus, l_plus, B1, B2, B3
         )
+    elif function_type == "mmdagg_star":
+        if approx_type == "permutation":
+            permutations_same_sample_size = True
+        elif approx_type == "wild bootstrap" or approx_type == "wild_bootstrap": 
+            permutations_same_sample_size = False
+        else:
+            raise ValueError('approx_type should be "permutation" or "wild bootstrap".')
+        return mmdagg_star(
+            X,
+            Y,
+            kernel=kernel_type,
+            B1=B1,
+            B2=B2,
+            B3=B3,
+            number_bandwidths=number_bandwidths,
+            seed=seed,
+            permutations_same_sample_size=permutations_same_sample_size,
+        )
+    elif function_type == "autotst":
+        tst = autotst.AutoTST(X, Y)
+        p_value = tst.p_value()
+        output = int(p_value <= alpha)
+        return output
     else:
         raise ValueError(
             'Undefined function_type: function_type should be "median", "split",' 
@@ -69,7 +93,7 @@ def sample_and_test_uniform(
 
 def sample_and_test_mnist(
     P, Q, function_type, seed, kernel_type, approx_type, m, n, 
-    alpha, l_minus, l_plus, B1, B2, B3, bandwidth_multipliers
+    alpha, l_minus, l_plus, B1, B2, B3, bandwidth_multipliers, number_bandwidths=10,
 ):  
     """
     Sample from dataset P and dataset Q and run two-sample test.
@@ -117,6 +141,29 @@ def sample_and_test_mnist(
             seed, X, Y, alpha, kernel_type, approx_type, 
             function_type, l_minus, l_plus, B1, B2, B3
         )
+    elif function_type == "mmdagg_star":
+        if approx_type == "permutation":
+            permutations_same_sample_size = True
+        elif approx_type == "wild bootstrap" or approx_type == "wild_bootstrap": 
+            permutations_same_sample_size = False
+        else:
+            raise ValueError('approx_type should be "permutation" or "wild bootstrap".')
+        return mmdagg_star(
+            X,
+            Y,
+            kernel=kernel_type,
+            B1=B1,
+            B2=B2,
+            B3=B3,
+            number_bandwidths=number_bandwidths,
+            seed=seed,
+            permutations_same_sample_size=permutations_same_sample_size,
+        )
+    elif function_type == "autotst":
+        tst = autotst.AutoTST(X, Y)
+        p_value = tst.p_value()
+        output = int(p_value <= alpha)
+        return output
     else:
         raise ValueError(
             'Undefined function_type: function_type should be "median", "split",' 

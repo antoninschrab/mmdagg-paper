@@ -19,7 +19,7 @@ def f_theta(x, p, s, perturbation_multiplier=1, seed=None):
     """
     Function f_theta defined in in Section 5.4 (Eq. (17)) of our paper.
     inputs: x: (d,) array (point in R^d)
-            p: non-negative integer (number of permutations)
+            p: non-negative integer (number of perturbations)
             s: positive number (smoothness parameter of Sobolev ball (Eq. (1))
             perturbation_multiplier: positive number (c_d in Eq. (17))
             seed: integer random seed (samples theta in Eq. (17))
@@ -86,7 +86,7 @@ def f_theta_sampler(
     inputs: f_theta_seed: integer random seed for f_theta
             sampling_seed: integer random seed for rejection sampler
             number_samples: number of samples
-            p: non-negative integer (number of permutations)
+            p: non-negative integer (number of perturbations)
             s: positive number (smoothness parameter of Sobolev ball (Eq. (1))
             perturbation_multiplier: positive number (c_d in Eq. (17)) 
             non-negative integer (dimension of input of density)

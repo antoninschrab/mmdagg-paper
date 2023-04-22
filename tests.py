@@ -266,7 +266,7 @@ def ratio_mmd_stdev(K, approx_type, regulariser=10**(-8)):
             regulariser: small positive number (we use 10**(-8) as done by Liu et al.)
             m: number of samples (d-dimensional points) in X 
             K: (m+n, m+n) kernel matrix for pooled sample WITH diagonal        
-    output: estimate of criterion J which is the ratio of MMD^2 and of the variance under the H_a
+    output: estimate of the ratio of MMD^2 and of the variance under the H_a
     warning: this function mutates K using the mutate_K function
              there is no approximation but approx_type is required to determine whether to use
              MMD_a estimate as in Eq. (3) or MMD_b estimate as in Eq. (6)
@@ -368,7 +368,8 @@ def mmd_split_test(
     # compute median bandwidth
     median_bandwidth = compute_median_bandwidth_subset(seed, X, Y)
 
-    # select bandwidth which maximizes criterion J using X1 and Y1
+    # using X1 and Y1 select bandwidth which maximizes 
+    # the ratio of MMD^2 and of the variance under the H_a 
     kernel_matrices_list = kernel_matrices(
         X1, Y1, kernel_type, median_bandwidth, bandwidth_multipliers
     )

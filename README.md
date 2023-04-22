@@ -1,26 +1,24 @@
-# Code for MMDAgg: an MMD aggregated two-sample test
-
-An improved implementation of MMDAgg which is more memory-efficient can be found [here](https://github.com/antoninschrab/FL-MMDAgg/tree/master/mmdaggupdate).
+# Reproducibility code for MMDAgg: MMD Aggregated Two-Sample Test
 
 This GitHub repository contains the code for the reproducible experiments presented in our paper 
 [MMD Aggregated Two-Sample Test](https://arxiv.org/abs/2110.15073).
-We provide the code to run the experiments to generate Figures 1-9 and Table 1 from our paper, 
-those can be found in [media](media). 
 
-The function `mmdagg` in [tests.py](tests.py) corresponds to the aggregated test we propose
-in [Algorithm 1](https://arxiv.org/pdf/2110.15073.pdf#page=17), it uses the efficient implementation
-discussed in [Appendix C](https://arxiv.org/pdf/2110.15073.pdf#page=44).
-This function can be used with Gaussian and Laplace kernels, considering 
-a collection of bandwidths consisting of the median bandwidth scaled by powers of 2, and
-using one of the four types of weights we propose in [Section 5.1](https://arxiv.org/pdf/2110.15073.pdf#page=22).
+We provide the code to run the experiments to generate Figures 1-10 and Table 2 from our paper, 
+those can be found in [media](media).
+The code for the [Failing Loudly](https://github.com/steverab/failing-loudly) experiment (with results reported in Table 1) can be found on the [FL-MMDAgg](https://github.com/antoninschrab/FL-MMDAgg) repository.
 
-We also include a more general implementation `mmdagg_custom` of our test in [tests.py](tests.py) which can be used 
-by providing any kernel matrices and using any weighting strategy.
-Those kernel matrices can be obtained by fixing a kernel and varying the bandwidths, 
-but they can also be obtained by considering fundamentally different kernels.
+To use our MMDAgg test in practice, we recommend using our `mmdagg` package, more details available on the [mmdagg](https://github.com/antoninschrab/mmdagg) repository.
+
+Our implementation uses two quantile estimation methods (wild bootstrap and permutations).
+The MMDAgg test aggregates over different types of kernels (e.g. Gaussian, Laplace, Inverse Multi-Quadric (IMQ), Matérn (with various parameters) kernels), each with several bandwidths.
+In practice, we recommend aggregating over both Gaussian and Laplace kernels, each with 10 bandwidths.
 
 ## Requirements
 - `python 3.9`
+
+The packages in [requirements.txt](requirements.txt) are required to run our tests and the ones we compare against. 
+
+Additionally, the `jax` and `jaxlib` packages are required to run the Jax implementation of MMDAgg in [mmdagg/jax.py](mmdagg/jax.py).
 
 ## Installation
 
@@ -44,66 +42,112 @@ We then recommend creating and activating a virtual environment by either
   # can be deactivated by running:
   # conda deactivate
   ```
-The required packages can then be installed in the virtual environment by running
+The packages required for reproducibility of the experiments can then be installed in the virtual environment by running
 ```
 python -m pip install -r requirements.txt
 ```
+
+For using the Jax implementation of MMDAgg, Jax needs to be installed ([instructions](https://github.com/google/jax#installation)). For example, this can be done by running
+- for GPU:
+  ```bash
+  pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+  # conda install -c conda-forge -c nvidia pip numpy scipy cuda-nvcc "jaxlib=0.4.1=*cuda*" jax
+  ```
+- or, for CPU:
+  ```bash
+  conda install -c conda-forge -c nvidia pip jaxlib=0.4.1 jax
+  ```
 
 ## Reproducing the experiments of the paper
 
 To run the experiments, the following command can be executed
 ```
-python experiments.py 
+python experiments.py
 ```
-This command creates all the data necessary to plot the figures of the paper and saves it in dedicated `.csv` and `.pkl` files 
-in a new directory `user/raw`.
-As the experiments take several days to run, the output of this command is already provided in [paper/raw](paper/raw).
-The actual figures of the paper can be obtained from such files using the following command 
-```
-python figures.py  # create figures in paper/figures using reference files in paper/raw
-# python figures.py -user  # alternatively, create figures in user/figures using output files in user/raw
-```
-The experiments in [experiments.py](experiments.py) are comprised of 'embarrassingly parallel for loops', significant speed up can be obtained by using 
-parallel computing libraries such as `joblib` or `dask`.
+This command saves the results in dedicated `.csv` and `.pkl` files in a new directory `user/raw`.
+The output of this command is already provided in [paper/raw](paper/raw).
+The results of the rest of the experiments, saved in the [results](results) directory, can be obtained by running the [Computations_mmdagg.ipynb](Computations_mmdagg.ipynb) notebook and the [Computations_autotst.ipynb](Computations_autotst.ipynb) notebook which uses the [autotst](https://github.com/jmkuebler/auto-tst) package introduced in the [AutoML Two-Sample Test](https://arxiv.org/abs/2206.08843) paper.
+
+The actual figures of the paper can be obtained from the saved results by running the code in the [figures.ipynb](figures.ipynb) notebook.
+
+All the experiments are comprised of 'embarrassingly parallel for loops', significant speed up can be obtained by using parallel computing libraries such as `joblib` or `dask`.
 
 ## Data
 
-Half of the experiments uses a down-sampled version of the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset which is created as a `.data` file in a new directory `mnist_dataset` when running the script [experiments.py](experiments.py). 
-This dataset can also be generated on its own by executing 
+Half of the experiments uses a down-sampled version of the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset which is created as a `.data` file in a new directory `mnist_dataset` when running the script [experiments.py](experiments.py).
+This dataset can also be generated on its own by executing
 ```
 python mnist.py
 ```
-The other half of the experiments uses samples drawn from a perturbed uniform density ([Eq. (17)](https://arxiv.org/pdf/2110.15073.pdf#page=27)).
+The other half of the experiments uses samples drawn from a perturbed uniform density ([Eq. 17](https://arxiv.org/pdf/2110.15073.pdf)).
 A rejection sampler `f_theta_sampler` for this density is implemented in [sampling.py](sampling.py).
 
-## Author
+## How to use MMDAgg in practice?
 
-[Antonin Schrab](https://antoninschrab.github.io)
+The MMDAgg test is implemented as the function `mmdagg` in [mmdagg/np.py](mmdagg/np.py) for the Numpy version and in [mmdagg/jax.py](mmdagg/jax.py) for the Jax version.
+
+For the Numpy implementation of our MMDAgg test, we only require the `numpy` and `scipy` packages.
+
+For the Jax implementation of our MMDAgg test, we only require the `jax` and `jaxlib` packages.
+
+To use our tests in practice, we recommend using our `mmdagg` package which is available on the [mmdagg](https://github.com/antoninschrab/mmdagg) repository. It can be installed by running
+```bash
+pip install git+https://github.com/antoninschrab/mmdagg.git
+```
+Installation instructions and example code are available on the [mmdagg](https://github.com/antoninschrab/mmdagg) repository. 
+
+We also provide some code showing how to use our MMDAgg test in the [demo_speed.ipynb](demo_speed.ipynb) notebook which also contains speed comparisons between the Jax and Numpy implementations, as reported below.
+
+| Speed in s | Numpy (CPU) | Jax (CPU) | Jax (GPU) | 
+| -- | -- | -- | -- |
+| MMDAgg | 43.1 | 14.9 | 0.495 | 
+
+In practice, we recommend using the Jax implementation as it runs considerably faster (100 times faster in the above table, see notebook [demo_speed.ipynb](demo_speed.ipynb)).
+ 
+## References
+
+*Failing Loudly: An Empirical Study of Methods for Detecting Dataset Shift.*
+Stephan Rabanser, Stephan Günnemann, Zachary C. Lipto.
+([paper](https://arxiv.org/abs/1810.11953), [code](https://github.com/steverab/failing-loudly))
+
+*Learning Kernel Tests Without Data Splitting.*
+Jonas M. Kübler, Wittawat Jitkrittum, Bernhard Schölkopf, Krikamol Muandet.
+([paper](https://arxiv.org/abs/2006.02286), [code](https://github.com/jmkuebler/tests-wo-splitting))
+
+*AutoML Two-Sample Test.*
+Jonas M. Kübler, Vincent Stimper, Simon Buchholz, Krikamol Muandet, Bernhard Schölkopf.
+([paper](https://arxiv.org/abs/2206.08843), [code](https://github.com/jmkuebler/auto-tst))
+
+
+## MMDAggInc
+
+For a computationally efficient version of MMDAgg which can run in linear time, check out our paper [Efficient Aggregated Kernel Tests using Incomplete U-statistics](https://arxiv.org/pdf/2206.09194.pdf) with reproducible experiments in the [agginc-paper](https://github.com/antoninschrab/agginc-paper) repository and a package in the [agginc](https://github.com/antoninschrab/agginc) repository.
+
+## Contact
+
+If you have any issues running our code, please do not hesitate to contact [Antonin Schrab](https://antoninschrab.github.io).
+
+## Affiliations
 
 Centre for Artificial Intelligence, Department of Computer Science, University College London
 
 Gatsby Computational Neuroscience Unit, University College London
 
-Inria, Lille - Nord Europe research centre and Inria London Programme
+Inria London
 
 ## Bibtex
 
 ```
 @unpublished{schrab2021mmd,
-  title={{MMD} Aggregated Two-Sample Test},
-  author={Antonin Schrab and Ilmun Kim and M{\'e}lisande Albert and B{\'e}atrice Laurent and Benjamin Guedj and Arthur Gretton},
-  year={2021},
-  note = "Submitted.",
-  abstract = {We propose a novel nonparametric two-sample test based on the Maximum Mean Discrepancy (MMD), which is constructed by aggregating tests with different kernel bandwidths. This aggregation procedure, called MMDAgg, ensures that test power is maximised over the collection of kernels used, without requiring held-out data for kernel selection (which results in a loss of test power), or arbitrary kernel choices such as the median heuristic. We work in the non-asymptotic framework, and prove that our aggregated test is minimax adaptive over Sobolev balls. Our guarantees are not restricted to a specific kernel, but hold for any product of one-dimensional translation invariant characteristic kernels which are absolutely and square integrable. Moreover, our results apply for popular numerical procedures to determine the test threshold, namely permutations and the wild bootstrap. Through numerical experiments on both synthetic and real-world datasets, we demonstrate that MMDAgg outperforms alternative state-of-the-art approaches to MMD kernel adaptation for two-sample testing.},
-  url = {https://arxiv.org/abs/2110.15073},
-  url_PDF = {https://arxiv.org/pdf/2110.15073.pdf},
-  url_Code = {https://github.com/antoninschrab/mmdagg-paper},
-  eprint={2110.15073},
-  archivePrefix={arXiv},
-  primaryClass={stat.ML}
+  author        = {Antonin Schrab and Ilmun Kim and M{\'e}lisande Albert and B{\'e}atrice Laurent and Benjamin Guedj and Arthur Gretton},
+  title         = {{MMD} Aggregated Two-Sample Test},
+  year          = {2021},
+  eprint        = {2110.15073},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2110.15073},
 }
 ```
 
 ## License
 
-MIT License (see [LICENSE.md](LICENSE.md))
+MIT License (see [LICENSE.md](LICENSE.md)).
