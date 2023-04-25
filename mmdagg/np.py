@@ -335,7 +335,7 @@ def mmdagg(
             index = "Single test " + str(j + 1) + "." + str(i + 1)
             idx = number_bandwidths * j + i
             reject_dictionary[index] = {}
-            reject_dictionary[index]["Reject"] = reject_p_vals[idx]
+            reject_dictionary[index]["Reject"] = reject_mmd_vals[idx]
             reject_dictionary[index]["Kernel " + kernel] = True
             reject_dictionary[index]["Bandwidth"] = bandwidths[i]
             reject_dictionary[index]["MMD"] = mmd_vals[idx]
