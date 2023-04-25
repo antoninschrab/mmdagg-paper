@@ -33,6 +33,8 @@ def mmdagg(
     assert 0 < alpha  and alpha < 1
     assert kernel_type in ["gaussian", "laplace"]
     assert approx_type in ["permutation", "wild bootstrap"]
+    if m != n:
+        assert approx_type == "permutation"
     assert weights_type in ["uniform", "decreasing", "increasing", "centred"]
     assert l_plus >= l_minus
 
@@ -94,6 +96,8 @@ def mmdagg_custom(
     assert n >= 2 and m >= 2
     assert 0 < alpha  and alpha < 1
     assert approx_type in ["permutation", "wild bootstrap"]
+    if m != n:
+        assert approx_type == "permutation"
     
     # Step 1: compute all simulated MMD estimates (efficient as in Appendix C in our paper)
     M  = np.zeros((N, B1 + B2 + 1))  
@@ -199,6 +203,8 @@ def mmd_median_test(
     assert 0 < alpha  and alpha < 1
     assert kernel_type in ["gaussian", "laplace"]
     assert approx_type in ["permutation", "wild bootstrap"]
+    if m != n:
+        assert approx_type == "permutation"
 
     # compute median bandwidth
     median_bandwidth = compute_median_bandwidth_subset(seed, X, Y)
