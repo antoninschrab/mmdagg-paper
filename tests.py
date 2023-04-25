@@ -3,7 +3,10 @@ from median import compute_median_bandwidth_subset
 from weights import create_weights
 from kernel import kernel_matrices, mutate_K
 
-
+# This is not the mmdagg test we recommend using in practice.
+# We recommend using the parameter-free mmdagg test of mmdagg/jax.py (or mmdagg/np.py)
+# Those functions can easily be used using our mmdagg package at:
+# https://github.com/antoninschrab/mmdagg
 def mmdagg(
     seed, X, Y, alpha, kernel_type, approx_type, weights_type, l_minus, l_plus, B1, B2, B3
 ):
