@@ -140,7 +140,7 @@ Inria London
 ```
 @article{schrab2021mmd,
   author  = {Antonin Schrab and Ilmun Kim and M{\'e}lisande Albert and B{\'e}atrice Laurent and Benjamin Guedj and Arthur Gretton},
-  title   = {MMD Aggregated Two-Sample Test},
+  title   = {{MMD} Aggregated Two-Sample Test},
   journal = {Journal of Machine Learning Research},
   year    = {2023},
   volume  = {24},
