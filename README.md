@@ -138,13 +138,15 @@ Inria London
 ## Bibtex
 
 ```
-@unpublished{schrab2021mmd,
-  author        = {Antonin Schrab and Ilmun Kim and M{\'e}lisande Albert and B{\'e}atrice Laurent and Benjamin Guedj and Arthur Gretton},
-  title         = {{MMD} Aggregated Two-Sample Test},
-  year          = {2021},
-  eprint        = {2110.15073},
-  archivePrefix = {arXiv},
-  url           = {https://arxiv.org/abs/2110.15073},
+@article{schrab2021mmd,
+  author  = {Antonin Schrab and Ilmun Kim and M{\'e}lisande Albert and B{\'e}atrice Laurent and Benjamin Guedj and Arthur Gretton},
+  title   = {MMD Aggregated Two-Sample Test},
+  journal = {Journal of Machine Learning Research},
+  year    = {2023},
+  volume  = {24},
+  number  = {194},
+  pages   = {1--81},
+  url     = {http://jmlr.org/papers/v24/21-1289.html}
 }
 ```
 
