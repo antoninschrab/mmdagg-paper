@@ -160,4 +160,4 @@ MIT License (see [LICENSE.md](LICENSE.md)).
 - [agginc](https://github.com/antoninschrab/agginc/): Efficient MMDAggInc HSICAggInc KSDAggInc tests
 - [mmdfuse](https://github.com/antoninschrab/mmdfuse/): MMD-Fuse test
 - [dpkernel](https://github.com/antoninschrab/dpkernel/): Differentially private dpMMD dpHSIC tests
-- [dckernel](https://github.com/antoninschrab/dpkernel/): Differentially private dpMMD dpHSIC tests
+- [dckernel](https://github.com/antoninschrab/dckernel/): Robust to Data Corruption dcMMD dcHSIC tests
